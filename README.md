@@ -1,5 +1,7 @@
 An exploratory data analysis of this Spotify data: https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
 
+Findings are summarized in this Medium post (still in draft): https://medium.com/@louisbrutton/what-drives-a-tracks-popularity-on-spotify-b4b10e9554c
+
 This contains over 160K tracks from Spotify, each with their 'audio features' - kpis measured by Spotify such as 'danceability' and 'speechiness'. It also has a bunch of meta information about each tracks (the name, release year and artist). And perhaps most importantly, it has a popularity score, based on how often and how recently the track has been listened to.
 
 Our primary motivation for this project is to look at what predicts track popularity? Can we build a model that can accurately predict a track's popularity based on known data and the Spotify's audio features?
@@ -26,3 +28,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 from collections import Counter
 
+Acknowledgements:
+- I used this solution to be able to break up the genre column into manageable chunks: https://github.com/softhints/python/blob/master/notebooks/pandas/Pandas_count_values_in_a_column_of_type_list.ipynb
+- This article (which I came across after I finished the work here) offers a different perspective, with some similar conclusions: https://towardsdatascience.com/what-makes-a-song-likeable-dbfdb7abe404
+- I re-used a few functions and code snippets from the Udacity course: Introduction to Data Science
