@@ -8,6 +8,16 @@ This contains over 160K tracks from Spotify, each with their 'audio features' - 
 
 Our primary motivation for this project is to look at what predicts track popularity? Can we build a model that can accurately predict a track's popularity based on known data and the Spotify's audio features?
 
+## Contents of the repository:
+
+- data.csv: main dataset with all Spotify track info
+- data_by_artist.csv: secondary dataset with artist information
+- data_by_genre.csv: secondary dataset with genre information
+- data_by_year.csv: yearly dataset
+- data_w_genre.csv: data_by_artist dataset with genres added 
+- eda_notes.ipynb: basic notes for this project, might delete later
+- spotify_eda.ipynb: main jupyter notebook with all code for this EDA!
+
 ## Business questions:
 
 We wanted to answer the following questions:
