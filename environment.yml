@@ -1,0 +1,13 @@
+name: spotify_eda
+channels:
+  - defaults
+dependencies:
+  - python==3.8.5
+  - pandas
+  - matplotlib
+  - numpy
+  - pip
+  - jupyter
+  - ipython
+  - scikit-learn
+  - seaborn
