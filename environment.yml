@@ -11,3 +11,4 @@ dependencies:
   - ipython
   - scikit-learn
   - seaborn
+  - pycodestyle-magic # need to check if this actually works as a dependency in the yaml file, as it's not available through conda, only in pip
